@@ -2,16 +2,53 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        /* style css vào đây */
-        
+    <title>Title</title>
+
+    <style type="text/css">
+        .flex-container {
+            display: flex;
+            justify-content: right;
+            background-color: green;
+        }
+
+        .flex-container > div {
+            padding: 20px;
+            margin: 20px;
+            font-size: 18px;
+            background-color: yellowgreen;
+        }
+        ._1{
+            order: 3;
+        }
+        ._2{
+            order: 1;
+        }
+        ._3{
+            order: 2;
+        }
+        ._4{
+            order: 5;
+        }
+        ._5{
+            order: 4;
+        }
     </style>
 </head>
 <body>
-    <!-- tạo 1 bảng như ảnh thietke.jpg -->
-    
+
+    <pre>
+        justify-content áp dụng flex container
+        justify-content được sử dụng để căn chỉnh theo chiều ngang
+        cho các flex item ( các thành phần con bên trong flex container )
+    </pre>
+
+    <div class="flex-container">
+        <div class="_1">1</div>
+        <div class="_2">2</div>
+        <div class="_3">3</div>
+        <div class="_4">4</div>
+        <div class="_5">5</div>
+    </div>
+
 </body>
 </html>
