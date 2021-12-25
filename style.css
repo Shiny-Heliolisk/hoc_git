@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* định nghĩa font */
+@font-face {
+    font-family: 'Pike';
+    src: url(Lobster-Regular.ttf);
+}
+
+.img {
+    width: 100%;
+}
+
+.img>img {
+    width: 100%;
+}
+
+.container {
+    position: relative;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: white;
+}
+
+.title {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Pike';
+}
+
+.text {
+    text-align: center;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 30px;
+}
+
+a:first-child {
+    margin-right: 20px;
+}
+
+a {
+    background-color: silver;
+    border-radius: 15px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    opacity: 0.5;
+}
+
+a:hover {
+    opacity: 1;
+    color: tomato;
+    padding: 20px;
+}
