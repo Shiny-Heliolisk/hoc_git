@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- add thu vien fonts gg -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"> -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        @media screen and (min-width:350px){
+            .container{display: block;}
+            .column-left {
+                background-color: aquamarine;
+                
+                height: 500px;
+            }
+
+            .column-middle-left {
+                background-color: tomato;
+                
+                height: 500px;
+            }
+
+            .column-middle-right {
+                background-color: pink;
+                
+                height: 500px;
+            }
+
+            .column-right {
+                background-color: violet;
+                
+                height: 500px;
+            }
+        }
+
+        @media screen and (min-width:1200px) {
+            .container {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            .column-left {
+                background-color: aquamarine;
+                width: 33.33%;
+                height: 1000px;
+            }
+
+            .column-middle-left {
+                background-color: tomato;
+                width: 33.33%;
+                height: 1000px;
+            }
+
+            .column-middle-right {
+                background-color: pink;
+                width: 33.33%;
+                height: 1000px;
+            }
+
+            .column-right {
+                background-color: violet;
+                width: 100%;
+                height: 1000px;
+            }
+        }
+
+        @media screen and (min-width:1920px) {
+            .container {
+                display: flex;
+            }
+
+            .column-left {
+                background-color: aquamarine;
+                width: 25%;
+                height: 1000px;
+            }
+
+            .column-middle-left {
+                background-color: tomato;
+                width: 25%;
+                height: 1000px;
+            }
+
+            .column-middle-right {
+                background-color: pink;
+                width: 25%;
+                height: 1000px;
+            }
+
+            .column-right {
+                background-color: violet;
+                width: 25%;
+                height: 1000px;
+            }
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="column-left">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Necessitatibus officia a suscipit molestias molestiae.
+            Eaque tenetur assumenda officia iure sed impedit,
+            earum ducimus provident voluptatibus, dolore, soluta nihil accusamus rerum?
+        </div>
+        <div class="column-middle-left">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Necessitatibus officia a suscipit molestias molestiae.
+            Eaque tenetur assumenda officia iure sed impedit,
+            earum ducimus provident voluptatibus, dolore, soluta nihil accusamus rerum?
+        </div>
+        <div class="column-middle-right">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Necessitatibus officia a suscipit molestias molestiae.
+            Eaque tenetur assumenda officia iure sed impedit,
+            earum ducimus provident voluptatibus, dolore, soluta nihil accusamus rerum?
+        </div>
+        <div class="column-right">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Necessitatibus officia a suscipit molestias molestiae.
+            Eaque tenetur assumenda officia iure sed impedit,
+            earum ducimus provident voluptatibus, dolore, soluta nihil accusamus rerum?
+        </div>
+    </div>
+</body>
+
+</html>
